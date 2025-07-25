@@ -144,8 +144,9 @@ const Manager = () => {
                         </lord-icon>
                         Save</button>
                 </div>
+
+                <h2 className='font-bold text-2xl py-4'>Your Passwords</h2>
                 <div className="paswords overflow-auto">
-                    <h2 className='font-bold text-2xl py-4'>Your Passwords</h2>
                     {passwordArray.length === 0 && <div>No passwords to show</div>}
                     {passwordArray.length != 0 &&
                         <table className="table-auto w-full rounded-md overflow-hidden mb-10">
