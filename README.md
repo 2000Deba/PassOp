@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/logo.jpg" alt="PassOp Logo" width="" height="200" />
+  <img src="./public/logo.jpg" alt="PassOp Logo" height="200" />
   <h1>PassOp 🔐</h1>
   <p><b>Your Personal Password Manager – Secure. Fast. Simple.</b></p>
 
@@ -37,7 +37,9 @@
 <img src="./public/password-2.jpg" alt="PassOp Logo" />
 
 ### **Mobile Responsive View**
-<img src="./public/mobile.jpg" alt="PassOp Logo" />
+<div align="center">
+  <img src="./public/mobile.jpg" height="400" alt="PassOp Mobile Responsive View" />
+</div>
 
 ---
 
@@ -87,6 +89,7 @@ npm run build
 
 <p>This project is deployed using <b>GitHub Pages.</b>
 To deploy, simply run:</p>
+
 ```
 npm run deploy
 ```
